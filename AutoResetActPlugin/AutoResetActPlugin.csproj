@@ -1,10 +1,26 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="Dalamud.Plugin.Bootstrap.targets" />
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<Version>0.0.0.1</Version>
+		<Description>Auto Reset Act Plugin</Description>
+		<PackageProjectUrl>https://github.com/goatcorp/SamplePlugin</PackageProjectUrl>
+		<PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+		<IsPackable>false</IsPackable>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<OutputType>Library</OutputType>
+		<DalamudLibPath>$(AppData)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
+	</PropertyGroup>
 
+	<ItemGroup>
+		<Reference Include="Dalamud">
+			<Private>false</Private>
+			<HintPath>$(DalamudLibPath)\Dalamud.dll</HintPath>
+		</Reference>
+		<Reference Include="FFXIVClientStructs">
+			<Private>false</Private>
+			<HintPath>$(DalamudLibPath)\FFXIVClientStructs.dll</HintPath>
+		</Reference>
+	</ItemGroup>
 </Project>

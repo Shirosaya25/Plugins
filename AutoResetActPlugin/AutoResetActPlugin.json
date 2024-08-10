@@ -1,0 +1,12 @@
+{
+  "Author": "Shirosaya25",
+  "Name": "Auto Reset ACT",
+  "Punchline": "Automatically resets ACT on encounter wipe.",
+  "Description": "/autoact - Settings",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "bully",
+    "act",
+    "media tour"
+  ]
+}
