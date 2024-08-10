@@ -8,14 +8,8 @@
   "AssemblyVersion": "0.1.0.0",
   "RepoUrl": "https://github.com/Shirosaya25/Plugins",
   "ApplicableVersion": "any",
-  "CategoryTags": [
-    "jobs"
-  ],
   "DalamudApiLevel": 10,
   "IconUrl": "",
-  "ImageUrls": [
-    ""
-  ],
   "DownloadLinkInstall": "https://github.com/Shirosaya25/Plugins/releases/download/0.1.0.0/latest.zip",
   "IsHide": false,
   "IsTestingExclusive": false,
@@ -23,4 +17,4 @@
   "DownloadLinkUpdate": "https://github.com/Shirosaya25/Plugins/releases/download/0.1.0.0/latest.zip",
   "DownloadCount": 0,
   "LastUpdate": "1722547357"
-},
+}
