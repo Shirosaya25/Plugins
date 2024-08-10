@@ -1,12 +1,20 @@
 {
   "Author": "Shirosaya25",
-  "Name": "Auto Reset ACT",
-  "Punchline": "Automatically resets ACT on encounter wipe.",
-  "Description": "/autoact - Settings",
+  "Name": "AutoResetActPlugin",
+  "InternalName": "AutoResetActPlugin",
+  "AssemblyVersion": "0.10.4",
+  "Description": "The plugin will automatically execute the /echo end macro on encounter wipe",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Shirosaya25/Plugins/tree/master",
   "Tags": [
     "bully",
-    "act",
-    "media tour"
-  ]
+    "lazy",
+    "media-tour"
+  ],
+  "DalamudApiLevel": 9,
+  "IconUrl": "",
+  "Punchline": "For lazy or forgetful people",
+  "IsHide": "False",
+  "IsTestingExclusive": "False",
+  "DownloadLinkInstall": "https://github.com/Shirosaya25/Plugins/releases/download/v0.1.0/v0.1.0.zip"
 }

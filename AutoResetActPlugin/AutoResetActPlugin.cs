@@ -1,5 +1,4 @@
 ﻿using Dalamud.Game.Command;
-using Dalamud.Hooking;
 using Dalamud.Plugin;
 using System;
 using Dalamud.Interface.Windowing;
