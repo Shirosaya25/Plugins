@@ -16,5 +16,7 @@
   "Punchline": "For lazy or forgetful people",
   "IsHide": "False",
   "IsTestingExclusive": "False",
-  "DownloadLinkInstall": "https://github.com/Shirosaya25/Plugins/releases/download/v0.1.0/v0.1.0.zip"
+  "DownloadLinkInstall": "https://github.com/Shirosaya25/Plugins/releases/download/v0.1.0/v0.1.0.zip",
+  "DownloadLinkTesting": "https://github.com/Shirosaya25/Plugins/releases/download/v0.1.0/v0.1.0.zip",
+  "DownloadLinkUpdate": "https://github.com/Shirosaya25/Plugins/releases/download/v0.1.0/v0.1.0.zip"
 }
