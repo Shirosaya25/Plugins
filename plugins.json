@@ -9,7 +9,7 @@
     "AssemblyVersion": "0.1.1.0",
     "RepoUrl": "https://github.com/Shirosaya25/Plugins",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 10,
+    "DalamudApiLevel": 11,
     "IconUrl": "",
     "DownloadLinkInstall": "https://github.com/Shirosaya25/Plugins/releases/download/0.1.1.0/latest.zip",
     "IsHide": false,
